@@ -16,5 +16,15 @@ public class SumofNums {
 
         System.out.println("The sum is " + sum);
 
+        do{
+            System.out.println("Enter a number (-1 to quit): ");
+            number = console.nextInt();
+            // if (number != -1)
+            // {
+                sum = sum + number;
+            // }
+        }while(number != -1);
+        sum++;
+        System.out.println("The sum is " + sum);
     }
 }
